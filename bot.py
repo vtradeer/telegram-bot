@@ -147,7 +147,7 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"Не удалось подключиться к Google Таблице при старте: {e}")
 
-    app_telegram = Application.builder().token(BOT_TOKEN).build()
+   app_telegram = Application.builder().token(BOT_TOKEN).arbitrary_callback_data(True).build()
 
     app_telegram.add_handler(
         MessageHandler(
