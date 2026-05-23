@@ -27,7 +27,7 @@ BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8928167415:AAEgSP4_UVq9hMOF7rFj0RVW65h6
 MANAGER_GROUP_ID: int = int(os.getenv("MANAGER_GROUP_ID", "-5108511404"))
 
 # Точное название Google Таблицы (как в заголовке документа)
-SPREADSHEET_NAME: str = os.getenv("SPREADSHEET_NAME", "YOUR_SPREADSHEET_NAME")
+SPREADSHEET_NAME: str = os.getenv("SPREADSHEET_NAME", "Клиенты")
 
 # Путь к JSON-файлу с ключом сервисного аккаунта Google
 GOOGLE_CREDENTIALS_FILE: str = os.getenv("GOOGLE_CREDENTIALS_FILE", "credentials.json")
