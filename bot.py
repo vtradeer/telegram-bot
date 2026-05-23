@@ -21,7 +21,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Токен бота от @BotFather
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8928167415:AAEgSP4_UVq9hMOF7rFj0RVW65h6jxUonnY")
 
 # ID закрытой группы менеджеров (отрицательное число)
 MANAGER_GROUP_ID: int = int(os.getenv("MANAGER_GROUP_ID", "-5108511404"))
