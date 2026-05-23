@@ -1,0 +1,10 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pip install -r requirements.txt && python bot.py"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
